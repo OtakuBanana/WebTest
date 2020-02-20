@@ -1,6 +1,5 @@
 let myButton = document.querySelector('button');
-let myHeading = document.querySelector('h3');
-
+let myHeading = document.querySelector('#welcome');
 function setUserName() {
     let myName = prompt('请输入用户名：');
     if(!myName || myName === null) {
@@ -44,6 +43,16 @@ document.querySelector('#buttons2').onclick = function() {
 }
 document.querySelector('#buttons3').onclick = function() {
   alert('我真的一滴都没有了！');
+}
+
+document.querySelector('#imgbutton1').onclick = function() {
+  window.open("images/QQSYS.jpg");
+}
+document.querySelector('#imgbutton2').onclick = function() {
+  window.open("images/WXSYS.jpg");
+}
+document.querySelector('#imgbutton3').onclick = function() {
+  window.open("https://weibo.com/5834503808/profile?rightmod=1&wvr=6&mod=personinfo");
 }
 
 $(function() {
