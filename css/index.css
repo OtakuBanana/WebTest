@@ -1,10 +1,10 @@
 body {
     /* background-color: rgb(44, 44, 44); */
     background-image: url("../images/bg.jpg");
-    height: 3500px;
     background-attachment:fixed;
     background-size:cover;
     margin: 0 auto;
+    height: auto;
 }
 
 .clear {
@@ -196,10 +196,24 @@ h2::after {
 .body3 {
     width: 100%;
     height: auto;
-    border-radius: 0 0 20px 20px;
     margin: -20px auto;
     background-color:  rgb(37, 37, 37);
     text-align: center;
+}
+
+.body4 {
+    width: 100%;
+    height: 240px;
+    margin: -20px auto;
+    background-color:  rgb(37, 37, 37);
+    text-align: center;
+}
+
+.imgbutton {
+    width: 50px;
+    height: 50px;
+    margin: 30px 30px;
+    cursor: pointer;
 }
 
 .img1{
@@ -216,6 +230,8 @@ h2::after {
     margin: 8px 5px;
     border-radius: 2px;
     box-shadow: 0px 3px 10px black;
+    position: relative;
+    z-index: 0;
 }
 
 .button1 {
@@ -231,6 +247,28 @@ h2::after {
     font-size: 20px;
     box-shadow: 0px 5px 7px black;
     transition-duration: 0.75s;
+}
+
+.button2 {
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    right: 30px;
+    top: 90%;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 0px 5px 7px black;
+    position: fixed;
+    transition-duration: 0.25s;
+}
+
+.button2:hover {
+    background-color: black;
+    color: white;
 }
 
 .button1:hover {
@@ -311,7 +349,7 @@ h2::after {
     position: fixed;
     top: 0;
     left: -123px;
-    z-index: 0;
+    z-index: 1;
 
 }
 
@@ -330,4 +368,19 @@ h2::after {
     cursor: pointer;
     font-size: 15px;
     margin: 5px 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.pagefooting {
+    height: 180px;
+    border-radius: 0 0 20px 20px;
+    margin-top: 20px;
+    background-color: rgb(37, 37, 37);
+    color: #666;
+    text-align: center;
+}
+
+#lxwm {
+    color: #666;
 }

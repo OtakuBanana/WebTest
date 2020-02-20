@@ -1,0 +1,56 @@
+.divbody {
+    width: 70%;
+    background-color: white;
+    margin: 80px auto;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+p {
+    color: gray;
+    margin: 12px auto 12px 15px;
+}
+
+h2 {
+    margin: 15px auto 10px 15px;
+}
+
+h3 {
+    margin: 15px auto 10px 20px;
+}
+
+.hr1 {
+    width: 98%;
+    height: 3px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px black;
+}
+
+.borderbody {
+    border-width: 1px;
+    border-style: solid;
+    border-color: indianred;
+    border-radius: 3px;
+    background-color: rgb(235, 235, 235);
+}
+
+.divbutton {
+    text-align: center;
+}
+
+button {
+    background-color: indianred;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    box-shadow:0px 3px 4px black;
+    cursor: pointer;
+    outline: 0;
+}
