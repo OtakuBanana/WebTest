@@ -1,4 +1,4 @@
-# jxxc
+# 厦门旅游
 
 > A Vue.js project
 
