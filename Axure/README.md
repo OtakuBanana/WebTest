@@ -1,3 +1,3 @@
 # Axure
-### [JD:京东](https://github.com/OtakuBanana/WebTest/edit/master/Axure/JD)
+### [JD:京东](https://github.com/OtakuBanana/WebTest/edit/master/Axure/京东)
  -...
