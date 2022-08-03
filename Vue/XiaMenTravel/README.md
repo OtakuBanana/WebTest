@@ -1,5 +1,5 @@
 # 厦门旅游
-
+## 模块过大分卷压缩(node_modules)
 > A Vue.js project
 
 ## Build Setup
