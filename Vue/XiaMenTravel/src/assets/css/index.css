@@ -1,0 +1,204 @@
+.imgTxt {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -280px;
+    font-size: 60px;
+    font-family: '幼圆';
+    color: white;
+}
+.imgBtn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-left: -50px;
+    padding: 0 25px;
+    font-size: 56px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: 5px solid #2d53a4;
+    border-radius: 20px;
+    background-color: #2d53a4;
+    transition: all .3s;
+}
+.imgBtn:hover {
+    color: #406edb;
+    border: 5px solid #2d53a4;
+    background-color: white;
+}
+.boxList {
+    position: relative;
+    top: -80px;
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    height: 460px;
+}
+.listUl {
+    /* flex: 1; */
+    margin-right: 10px;
+    padding: 20px 40px;
+    height: 420px;
+    width: 240px;
+    color: #bed3ff;
+    background-color: #2d53a4;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+.listUl li {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    color: white;
+    list-style: none;
+    border-bottom: 4px solid #2d53a4;
+    transition: all .3s;
+}
+.listUl li:hover {
+    color: #94b6ff;
+    cursor: pointer;
+}
+.listUl li.active {
+    letter-spacing: 0.5em;
+    border-bottom: 4px solid white;
+}
+.listImg img {
+    height: 460px;
+    width: 870px;
+    box-shadow: 1px 10px 16px rgba(0, 0, 0, 0.5);
+}
+
+.img-right-enter-active,
+.img-right-leave-active,
+.img-left-enter-active,
+.img-left-leave-active {
+  transition: all 500ms;
+  position: absolute;
+}
+.img-right-enter {
+  opacity: 0;
+}
+.img-right-leave-active {
+  opacity: 0;
+}
+.img-left-enter {
+  opacity: 0;
+}
+.img-left-leave-active {
+  opacity: 0;
+}
+
+.boxList2 {
+  top: -80px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1200px;
+}
+.boxList2 .list2H2 {
+  flex: 1;
+  margin: 0 auto;
+  padding: 20px 40px;
+  width: 1000px;
+  background-color: #2d53a4;
+}
+.boxList2 button {
+  margin-right: 5px;
+  padding: 4px 8px;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  border-radius: 4px;
+  transition: all .1s;
+}
+.boxList2 div button:nth-child(2) {
+  background-color: gold;
+}
+.boxList2 div button:nth-child(3) {
+  background-color: rgb(32, 181, 218);
+}
+.boxList2 div button:nth-child(4) {
+  background-color: rgb(67, 236, 81);
+}
+.boxList2 div button:nth-child(5) {
+  background-color: rgb(22, 214, 166);
+}
+.boxList2 div button:nth-child(6) {
+  background-color: rgb(253, 110, 218);
+}
+.boxList2 button:hover {
+  color: white;
+}
+.boxList2 .list2Ul {
+  flex: 1;
+  margin: 0 auto;
+  padding: 20px;
+  width: 1040px;
+  background-color: white;
+}
+.boxList2 .list2Ul li {
+  padding: 10px;
+  cursor: pointer;
+  list-style: none;
+  transition: all .1s;
+}
+.boxList2 .list2Ul li:hover {
+  background-color: #ddd;
+}
+.boxList2 .list2Ul img, h3, div {
+  display: inline-block;
+}
+.boxList2 .list2Ul img {
+  margin-right: 20px;
+  height: 120px;
+  width: 200px;
+}
+.boxList2 .list2Ul span {
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+  color: skyblue;
+}
+.boxList2 .list2Ul h3{
+  margin-bottom: 10px;
+}
+.boxList3 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  margin: 0 auto;
+  width: 1200px;
+  text-align: center;
+}
+.boxList3 .divBox {
+  margin: 20px 10px;
+  padding: 30px;
+  height: 220px;
+  width: 170px;
+  text-align: left;
+  cursor: pointer;
+  box-shadow: 0 1px 5px #333;
+  transition: all .2s;
+}
+.boxList3 .divBox:hover {
+  box-shadow: 0 5px 10px #333;
+  transform: translateY(-10px);
+}
+.boxList3 .divBox:nth-child(1) {
+  background-image: url("../images/index/imgBg1.jpg");
+}
+.boxList3 .divBox:nth-child(2) {
+  background-image: url("../images/index/imgBg2.jpg");
+}
+.boxList3 .divBox:nth-child(3) {
+  background-image: url("../images/index/imgBg3.jpg");
+}
+.boxList3 .divBox:nth-child(4) {
+  background-image: url("../images/index/imgBg4.jpg");
+}
+.boxList3 div h3 {
+  font-size: 22px;
+  color: white;
+  text-shadow: 2px 2px 2px black ;
+}

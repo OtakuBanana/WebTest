@@ -1,0 +1,11 @@
+.bodyDiv {
+    padding: 20px 200px;
+    margin: 0 auto;
+    width: 1000px;
+}
+.bodyDiv p {
+    text-indent: 2em;
+}
+.bodyDiv span {
+    font-weight: bold;
+}

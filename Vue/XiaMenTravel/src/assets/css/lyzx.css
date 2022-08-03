@@ -1,0 +1,33 @@
+.bodyDiv {
+    margin: 0 auto;
+    width: 1000px;
+}
+.bodyDiv .divH2 {
+    padding: 20px;
+    color: white;
+    background-color: #2d53a4;
+}
+.bodyDiv .divUl {
+    padding: 10px;
+    background-color: white;
+}
+.bodyDiv .divUl li {
+    padding: 10px 10px;
+    cursor: pointer;
+    list-style: none;
+    transition: all .1s;
+}
+.bodyDiv .divUl li:hover {
+    background-color: #ccc;
+}
+.bodyDiv .divUl p {
+    color: gray;
+}
+.bodyDiv .divUl img {
+    padding: 5px 0 5px 10px;
+    width: 150px;
+    transition: all .3s;
+}
+.bodyDiv .divUl li:hover img {
+    width: 300px;
+}
