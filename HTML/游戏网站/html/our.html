@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../images/logo.ico" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/gamelist.css" />
+    <link rel="stylesheet" href="../css/user.css" />
+    <link rel="stylesheet" href="../css/our-screen-min.css" media="screen and (max-width: 1000px)" />
+    <title>关于我们-新世纪游戏官网</title>
+    <style>
+        body, .MainFooter {
+            background-image: url("../images/bg.png");
+        }
+        .MainHead {
+            opacity: .6;
+        }
+        .MainBody video {
+            margin-top: -16rem;
+            width: 100%;
+        }
+        .MainBody img {
+            position: absolute;
+            opacity: 0;
+            transition: 3s;
+        }
+        .MainBody img:nth-child(1) {
+            top: 47%;
+            left: 30%;
+            transition-delay: .5s;
+        }
+        .MainBody img:nth-child(2) {
+            top: 52%;
+            left: 43%;
+            transition-delay: 1.5s;
+        }
+        .MainBody img:nth-child(3) {
+            top: 52%;
+            left: 42.3%;
+            transition-delay: 2.5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="MainHead">
+        <nav class="navbar navbar-default" role="navigation"> 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                    <span class="sr-only">展开导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="javascript:;">新世纪游戏官网</a>
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../index.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+                    <li><a href="gamelist.html"><span class="glyphicon glyphicon-list"></span> 游戏列表</a></li>
+                    <li><a href="news.html"><span class="glyphicon glyphicon-bullhorn"></span> 资讯动态</a></li>
+                    <li class="active"><a href="javascript:;"><span class="glyphicon glyphicon-info-sign"></span> 关于我们</a></li>
+                    <li><a href="user.html"><span class="glyphicon glyphicon-user"></span> 会员中心</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="MainBody">
+        <img src="../images/title-1.png" alt="">
+        <img src="../images/title-2.png" alt="">
+        <img src="../images/title-3.png" alt="">
+        <video src="../video/demo.mp4" autoplay loop muted></video>
+    </div>
+    <div class="scrollTop">Top</div>
+    <div class="MainFooter">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <footer>
+                    <span class="footerTitle">新世纪</span>
+                    <span class=""></span>
+                    <span class="footerText">一家专注新一代游戏的网站</span>
+                    <p>本游戏适合16岁以上的玩家进入。</p>
+                    <p>积极健康的游戏心态是健康游戏的开端，请您合理控制游戏时间，避免沉溺游戏影响生活。</p>
+                    <p>注意自我保护，防范网络陷阱。</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-3.5.1.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/vip.js"></script>
+<script>
+    $(function() {
+        $('img').css("opacity", "1");
+    });
+</script>
+</html>

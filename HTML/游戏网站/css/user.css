@@ -1,0 +1,95 @@
+/* Login or Register */
+.login {
+    display: block;
+}
+.register {
+    display: none;
+}
+.login, .register {
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    margin-left: -25rem;
+    width: 50rem;
+    height: 40rem;
+    text-align: center;
+    cursor: default;
+    box-shadow: 1rem 2rem 3rem black;
+    border-radius: 0 3rem 0 3rem;
+    background-color: rgba(250, 250, 250, .9);
+    transition: .5s;
+}
+.login input, .register input {
+    border: 0;
+}
+.login h3, .register h3 {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "黑体";
+}
+.login .LorR input[type="button"], .register .LorR input[type="button"] {
+    float: left;
+    padding: .5rem 0;
+    width: 25rem;
+    font-size: 2rem;
+    transition: .3s;
+}
+.login .LorR input[type="button"]:hover, .register .LorR input[type="button"]:hover {
+    color: white;
+    background-color: rgba(190, 0, 0, 1);
+}
+.btnFocus {
+    color: white;
+    background-color: rgba(190, 0, 0, 1);
+}
+.btnBlur {
+    border-bottom: .2rem solid #333;
+    background-color: rgba(0, 0, 0, .1);
+}
+.login label, .register label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: -.5rem;
+    font-size: 2rem;
+}
+.login input, .register input {
+    display: block;
+    margin: 0 auto;
+    outline: none;
+}
+.login input[type="text"], .register input[type="text"], .login input[type="password"], .register input[type="password"] {
+    padding: .2rem 1rem;
+    width: 12rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "幼圆";
+    text-align: center;
+    border-bottom: .2rem solid #333;
+    background-color: rgba(250, 250, 250, 0);
+    transition: .3s;
+}
+.login input[type="text"]:focus, .register input[type="text"]:focus, .login input[type="password"]:focus, .register input[type="password"]:focus {
+    width: 16rem;
+    border-color: rgb(190, 0, 0);
+}
+#btnLogin, #btnRegister {
+    margin-top: 2rem;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.8rem;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: .2rem solid rgb(190, 0, 0);
+    border-radius: .5rem;
+    background-color: rgb(190, 0, 0);
+    transition: 0.3s;
+}
+#btnLogin:hover, #btnRegister:hover {
+    width: 12rem;
+    color: rgb(190, 0, 0);
+    background-color: white;
+}
+/* Login or Register */
+
+/* MainBody */

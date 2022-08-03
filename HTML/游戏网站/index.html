@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/user.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/index-screen-min.css" media="screen and (max-width: 1580px)" />
+    <title>新世纪游戏官网—寻找新一代的游戏世界！</title>
+    <style>
+        body {
+            background-image: url("images/bg.png");
+        }
+    </style>
+</head>
+<body>
+    <div class="userLorR">
+        <div class="login">
+            <form action="#">
+                <h3>用户登入</h3>
+                <span id="btnEsc">&times;</span>
+                <div class="LorR clearfix">
+                    <input class="btnFocus" type="button" value="登 入" />
+                    <input id="goRegister" class="btnBlur" type="button" value="注 册" />
+                </div>
+                <label for="userLogin"><span class="glyphicon glyphicon-user"></span></label>
+                <input id="userLogin" type="text" />
+                <label for="pwdLogin"><span class="glyphicon glyphicon-lock"></span></label>
+                <input id="pwdLogin" type="password" />
+                <input id="btnLogin" type="button" value="登 入" />
+            </form>
+        </div>
+        <div class="register">
+            <form action="#">
+                <h3>用户注册</h3>
+                <span id="btnEscs">&times;</span>
+                <div class="LorR clearfix">
+                    <input id="goLogin" class="btnBlur" type="button" value="登 入" />
+                    <input class="btnFocus" type="button" value="注 册" />
+                </div>
+                <label for="userRegister">用户名</label>
+                <input id="userRegister" type="text" />
+                <label for="pwdRegister">密码</label>
+                <input id="pwdRegister" type="password" />
+                <label for="pwdsRegister">确认密码</label>
+                <input id="pwdsRegister" type="password" />
+                <input id="btnRegister" type="button" value="注 册" />
+            </form>
+        </div>
+    </div>
+    <div class="MainHead">
+        <div class="menuTop"><span class="glyphicon glyphicon-link"></span> www.NewCentury.cn
+                <span id="btnReg">注 册</span>
+                <span id="btnLog">登 入</span>
+        </div>
+        <nav class="navbar navbar-default" role="navigation"> 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                    <span class="sr-only">展开导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="javascript:;">新世纪游戏官网</a>
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="javascript:;"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+                    <li><a href="html/gamelist.html"><span class="glyphicon glyphicon-list"></span> 游戏列表</a></li>
+                    <li><a href="html/news.html"><span class="glyphicon glyphicon-bullhorn"></span> 资讯动态</a></li>
+                    <li><a href="html/our.html"><span class="glyphicon glyphicon-info-sign"></span> 关于我们</a></li>
+                    <li><a href="html/user.html"><span class="glyphicon glyphicon-user"></span> 会员中心</a></li>
+                    <!-- <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">热门游戏<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">《决战！平安京》</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">《明日之后》</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">《时空中的绘旅人》</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="MainBody">
+        <div class="bodyBanner">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/banner/game-1.jpg" alt="决战！平安京" />
+                        <div class="carousel-caption">
+                            <h3>《决战!,平安京》<br />
+                                平安缘聚，燃情三载
+                            </h3>
+                          <p>《决战!平安京》3周年狂欢季盛大开启!海量福利，倾情放送!</p>
+                          <a href="https://moba.163.com/" target="_blank"><input type="button" value="查看详情" /></a>
+                          <br />
+                            <video class="demoVideo1" src="video/game-1.mp4" autoplay loop muted></video>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/banner/game-2.jpg" alt="OPL职业联赛" />
+                        <div class="carousel-caption">
+                            <h3>OPL职业联赛<br />
+                                秋季总决赛1月1日开战
+                            </h3>
+                          <p>不负热爱，自有光芒!OPL决战平安京职业联赛秋季总决赛1月1日开战!围观职业选手巅峰对决，共同见证冠军诞生!</p>
+                          <a href="http://opl.163.com/" target="_blank"><input type="button" value="查看详情" /></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/banner/game-3.jpg" alt="明日之后" />
+                        <div class="carousel-caption">
+                            <h3>明日之后第三季<br />
+                                人类,重启城市
+                            </h3>
+                            <p>明日之后第三季，真实末日大世界开启世界合为一体，它变得广袤辽阔，也进化出前所未有的野蛮、无序。浓雾下沉睡着无数的感染者,野外搜集请务必放轻你的脚步声。</p>
+                            <a href="http://mrzh.163.com/" target="_blank"><input type="button" value="查看详情" /></a>
+                            <br />
+                            <video class="demoVideo1" src="video/game-2.mp4" autoplay loop muted></video>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/banner/game-4.jpg" alt="网易电竞" />
+                        <div class="carousel-caption">
+                            <h3>网易电竞NeXT冬季赛<br />
+                                总决赛开启
+                            </h3>
+                            <p>“竞由自我,无以为界”，网易电竞NeXT2020冬季赛总决赛将于今日开战!本届冬季赛集结22款网易游戏及暴雪旗卜经典游戏作品，为玩家带来全新升级视效体验与互动玩法。</p>
+                            <a href="https://next.163.com/" target="_blank"><input type="button" value="查看详情" /></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/banner/game-5.jpg" alt="时空中的绘旅人" />
+                        <div class="carousel-caption">
+                            <h3>“四季猎场”幻梦开启<br />
+                                与他共度四季时光
+                            </h3>
+                            <p>四季流转，光阴翩跹。重逢之际，步入你所选择之人的时节。</p>
+                            <a href="http://hlr.163.com/" target="_blank"><input type="button" value="查看详情" /></a>
+                            <br />
+                            <video class="demoVideo1" src="video/game-3.mp4" autoplay loop muted></video>
+                        </div>
+                    </div>
+                </div>
+                <a href="#myCarousel" data-slide="prev" class="carousel-control left"></a>
+                <a href="#myCarousel" data-slide="next" class="carousel-control right"></a>
+            </div>
+        </div>
+        <div class="bodyBox">
+            <div class="bodyList">
+                <nav class="navbar navbar-default" role="navigation"> 
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#gameLists">
+                            <span class="sr-only">展开导航</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span> 
+                        </button>
+                        <a class="navbar-brand" href="javascript:;" style="border-left: 1rem solid rgb(190, 0, 0);">热门游戏</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="gameLists">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="html/gamelist.html">更多>></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="bodyGame">
+                <div class="row gameList-1">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2 gameBox">
+                        <div class="gameImg">
+                            <div class="mask"></div>
+                            <img src="images/game/game-1.jpg" alt="决战！平安京" />
+                        </div>
+                        <div class="gameText">
+                            <h3>《决战！平安京》</h3>
+                            <p>3周年狂欢季盛大开启！海量福利，倾情放送！</p>
+                            <hr />
+                            <a href="https://moba.163.com/" target="_blank"><input type="button" value="进入官网 &rsaquo;"  /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 gameBox">
+                        <div class="gameImg">
+                            <img src="images/game/game-2.jpg" alt="明日之后" />
+                        </div>
+                        <div class="gameText">
+                            <h3>《明日之后》</h3>
+                            <p>明日之后第三季，真实末日大世界开启，这里辽阔与野蛮并存，一切都变得不同。</p>
+                            <hr />
+                            <a href="http://mrzh.163.com/" target="_blank"><input type="button" value="进入官网 &rsaquo;"  /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 gameBox">
+                        <div class="gameImg">
+                            <img src="images/game/game-3.jpg" alt="猫和老鼠" />
+                        </div>
+                        <div class="gameText">
+                            <h3>《猫和老鼠》</h3>
+                            <p>圣诞地图热闹来袭，海量节日活动开启！圣诞树大作战模式限时上线，帮圣诞老人</p>
+                            <hr />
+                            <a href="http://tom.163.com/" target="_blank"><input type="button" value="进入官网 &rsaquo;"  /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 gameBox">
+                        <div class="gameImg">
+                            <img src="images/game/game-4.jpg" alt="时空中的绘旅人" />
+                        </div>
+                        <div class="gameText">
+                            <h3>《时空中的绘旅人》</h3>
+                            <p>四季流转，光阴翩跹。重逢之际，步入你所选择之人的时节。</p>
+                            <hr />
+                            <a href="http://hlr.163.com/" target="_blank"><input type="button" value="进入官网 &rsaquo;"  /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gameList-2">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2 gameBox">
+                        <div class="gameImg">
+                            <div class="mask"></div>
+                            <img src="images/game/game-5.jpg" alt="一梦江湖" />
+                        </div>
+                        <div class="gameText">
+                            <h3>《一梦江湖》</h3>
+                            <p>冬至新版本，放天灯、闹冰雪、体验良渚联动奇遇，遍览江湖美景！</p>
+                            <hr />
+                            <a href="https://jianghu.163.com/" target="_blank"><input type="button" value="进入官网 &rsaquo;"  /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 gameBox">
+                        <div class="gameImg">
+                            <img src="images/game/game-6.jpg" alt="我的世界" />
+                        </div>
+                        <div class="gameText">
+                            <h3>《我的世界》</h3>
+                            <p>《月蚀：光与暗》迎来决战最终章，快来体验吧！</p>
+                            <hr />
+                            <a href="https://mc.163.com/" target="_blank"><input type="button" value="进入官网 &rsaquo;"  /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 gameBox">
+                        <div class="gameImg">
+                            <img src="images/game/game-7.jpg" alt="阴阳师：百闻牌" />
+                        </div>
+                        <div class="gameText">
+                            <h3>《阴阳师：百闻牌》</h3>
+                            <p>周年限定福利异画等免费送！新机制“占卜”上线，周深献唱年度新剧情主题曲！</p>
+                            <hr />
+                            <a href="https://ssr.163.com/" target="_blank"><input type="button" value="进入官网 &rsaquo;"  /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 gameBox">
+                        <div class="gameImg">
+                            <img src="images/game/game-8.jpg" alt="幻书启世录" />
+                        </div>
+                        <div class="gameText">
+                            <h3>《幻书启世录》</h3>
+                            <p>多重世界书籍拟人，策略搭配手游12月17日全平台公测！登录首日领取50抽！</p>
+                            <hr />
+                            <a href="http://hsqsl.163.com/" target="_blank"><input type="button" value="进入官网 &rsaquo;"  /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bodyList">
+                <nav class="navbar navbar-default" role="navigation"> 
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#news">
+                            <span class="sr-only">展开导航</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span> 
+                        </button>
+                        <a class="navbar-brand" href="javascript:;" style="border-left: 1rem solid rgb(190, 0, 0);">热门资讯</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="news">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="html/news.html">更多>></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="bodyNews">
+                <div class="row">
+                    <div class="col-md-4 newsBox1">
+                        <div id="demoImg" class="carousel slide" data-ride="carousel" data-interval="3000">
+                            <ol class="carousel-indicators">
+                                <li data-target="#demoImg" data-slide-to="0" class="active"></li>
+                                <li data-target="#demoImg" data-slide-to="1"></li>
+                                <li data-target="#demoImg" data-slide-to="2"></li>
+                                <li data-target="#demoImg" data-slide-to="3"></li>
+                                <li data-target="#demoImg" data-slide-to="4"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="images/list/list-1.jpg" alt="决战！平安京" />
+                                </div>
+                                <div class="item">
+                                    <img src="images/list/list-2.jpg" alt="OPL职业联赛" />
+                                </div>
+                                <div class="item">
+                                    <img src="images/list/list-3.jpg" alt="明日之后" />
+                                </div>
+                                <div class="item">
+                                    <img src="images/list/list-4.jpg" alt="网易电竞" />
+                                </div>
+                                <div class="item">
+                                    <img src="images/list/list-5.jpg" alt="时空中的绘旅人" />
+                                </div>
+                            </div>
+                            <a href="#demoImg" data-slide="prev" class="carousel-control"></a>
+                            <a href="#demoImg" data-slide="next" class="carousel-control"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 newsBox2">
+                        <div  class="newsText">
+                            <h3>小心了！百闻牌新式神百目鬼将带着“诅咒”之力掌控你的牌库！</h3>
+                            <hr style="height: .1rem; border: 0; background-color: gray;" />
+                            <ul class="newsText">
+                                <li><a href="javascript:;">周年焕新福利升级《决战!平安京》三周年活动来袭<span>11-11</span></a></li>
+                                <li><a href="javascript:;">天生好战热血开荒《光明大陆》怀旧服今日不删档<span>11-11</span></a></li>
+                                <li><a href="javascript:;">带着黑焰的热血御姐亮相!《阴阳师:妖怪屋》凤凰火新衣<span>11-11</span></a></li>
+                                <li><a href="javascript:;">两幅面孔了不起?《天谕》手游流光双形态出战<span>11-11</span></a></li>
+                                <li><a href="javascript:;">平安庆典·月盈《决战!平安京》山兔新皮肤登场<span>11-11</span></a></li>
+                                <li><a href="javascript:;">决斗开启!《游戏王:决斗链接》公测定档1月14日<span>11-11</span></a></li>
+                                <li><a href="javascript:;">《我的世界 月蚀：光与暗》迎来决战最终章，快来体验吧！<span>11-11</span></a></li>
+                                <li><a href="javascript:;">《猫和老鼠》圣诞树大作战模式限时上线，帮圣诞老人<span>11-11</span></a></li>
+                                <li><a href="javascript:;">四季流转，光阴翩跹。重逢之际，步入你所选择之人的时节。<span>11-11</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 newsBox3">
+                        <div class="newsText2">
+                            <h3>新游资讯</h3>
+                            <ul>
+                                <li>
+                                    <img src="images/list/icon-1.png" alt="时空中的绘旅人">
+                                    <h4>时空中的绘旅人</h4>
+                                    <p>&nbsp;全平台公测</p>
+                                    <p><span class="glyphicon glyphicon-time"></span> 11月11日</p>
+                                    <span class="glyphicon glyphicon-chevron-right rightGo"></span>
+                                </li>
+                                <li>
+                                    <img src="images/list/icon-2.png" alt="决战！平安京">
+                                    <h4>决战！平安京</h4>
+                                    <p>&nbsp;全平台公测</p>
+                                    <p><span class="glyphicon glyphicon-time"></span> 11月11日</p>
+                                    <span class="glyphicon glyphicon-chevron-right rightGo"></span>
+                                </li>
+                                <li>
+                                    <img src="images/list/icon-3.png" alt="明日之后">
+                                    <h4>明日之后</h4>
+                                    <p>&nbsp;全平台公测</p>
+                                    <p><span class="glyphicon glyphicon-time"></span> 11月11日</p>
+                                    <span class="glyphicon glyphicon-chevron-right rightGo"></span>
+                                </li>
+                                <li>
+                                    <img src="images/list/icon-4.png" alt="一梦江湖">
+                                    <h4>一梦江湖</h4>
+                                    <p>&nbsp;全平台公测</p>
+                                    <p><span class="glyphicon glyphicon-time"></span> 11月11日</p>
+                                    <span class="glyphicon glyphicon-chevron-right rightGo"></span>
+                                </li>
+                                <li>
+                                    <img src="images/list/icon-5.png" alt="幻书启世录">
+                                    <h4>幻书启世录</h4>
+                                    <p>&nbsp;全平台公测</p>
+                                    <p><span class="glyphicon glyphicon-time"></span> 11月11日</p>
+                                    <span class="glyphicon glyphicon-chevron-right rightGo"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scrollTop">Top</div>
+    <div class="MainFooter">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <footer>
+                    <span class="footerTitle">新世纪</span>
+                    <span class=""></span>
+                    <span class="footerText">一家专注新一代游戏的网站</span>
+                    <p>本游戏适合16岁以上的玩家进入。</p>
+                    <p>积极健康的游戏心态是健康游戏的开端，请您合理控制游戏时间，避免沉溺游戏影响生活。</p>
+                    <p>注意自我保护，防范网络陷阱。</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+</html>

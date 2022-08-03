@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../images/logo.ico" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/gamelist.css" />
+    <link rel="stylesheet" href="../css/user.css" />
+    <title>会员中心-新世纪游戏官网</title>
+    <style>
+        body, .MainFooter {
+            background-image: url("../images/bg.png");
+        }
+    </style>
+</head>
+<body>
+    <div class="userLorR">
+        <div class="login">
+            <form action="#">
+                <h3>用户登入</h3>
+                <div class="LorR clearfix">
+                    <input class="btnFocus" type="button" value="登 入" />
+                    <input id="goRegister" class="btnBlur" type="button" value="注 册" />
+                </div>
+                <label for="userLogin"><span class="glyphicon glyphicon-user"></span></label>
+                <input id="userLogin" type="text" />
+                <label for="pwdLogin"><span class="glyphicon glyphicon-lock"></span></label>
+                <input id="pwdLogin" type="password" />
+                <input id="btnLogin" type="button" value="登 入" />
+            </form>
+        </div>
+        <div class="register">
+            <form action="#">
+                <h3>用户注册</h3>
+                <div class="LorR clearfix">
+                    <input id="goLogin" class="btnBlur" type="button" value="登 入" />
+                    <input class="btnFocus" type="button" value="注 册" />
+                </div>
+                <label for="userRegister">用户名</label>
+                <input id="userRegister" type="text" />
+                <label for="pwdRegister">密码</label>
+                <input id="pwdRegister" type="password" />
+                <label for="pwdsRegister">确认密码</label>
+                <input id="pwdsRegister" type="password" />
+                <input id="btnRegister" type="button" value="注 册" />
+            </form>
+        </div>
+    </div>
+    <div class="MainHead">
+        <nav class="navbar navbar-default" role="navigation"> 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                    <span class="sr-only">展开导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="javascript:;">新世纪游戏官网</a>
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../index.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+                    <li><a href="gamelist.html"><span class="glyphicon glyphicon-list"></span> 游戏列表</a></li>
+                    <li><a href="news.html"><span class="glyphicon glyphicon-bullhorn"></span> 资讯动态</a></li>
+                    <li><a href="our.html"><span class="glyphicon glyphicon-info-sign"></span> 关于我们</a></li>
+                    <li class="active"><a href="javascript:;"><span class="glyphicon glyphicon-user"></span> 会员中心</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="MainBody">
+    </div>
+</body>
+<script src="../js/jquery-3.5.1.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/user.js"></script>
+</html>

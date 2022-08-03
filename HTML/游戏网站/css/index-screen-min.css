@@ -1,0 +1,28 @@
+#btnReg, #btnLog {
+    display: none;
+}
+.MainHead {
+    margin-top: -11rem;
+}
+.MainBody {
+    margin-top: 11rem;
+}
+.MainBody .carousel-caption {
+    display: none;
+}
+.gameList-2 {
+    display: none;
+}
+.newsText2 img {
+    width: 20%;
+}
+.newsBox1 {
+    margin-top: 2rem;
+}
+.newsBox2 {
+    margin-top: -1rem;
+}
+.newsBox3 {
+    margin-left: 0;
+    width: auto;
+}

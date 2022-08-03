@@ -1,0 +1,392 @@
+html, body, * {
+    margin: 0;
+    padding: 0;
+    scroll-behavior:smooth;
+}
+.login, .register {
+    z-index: 16;
+    display: none;
+}
+#btnReg, #btnLog {
+    position: absolute;
+    top: -1.5rem;
+    height: 5rem;
+    padding: 0 2rem;
+    font-size: 1.6rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 0 0 1.5rem;
+    background-color: rgb(190, 0, 0);
+    transition: .3s;
+}
+#btnReg:hover, #btnLog:hover {
+    transform: translateY(1.5rem);
+}
+#btnReg {
+    right: 10%;
+}
+#btnLog {
+    right: 5%;
+}
+#btnEsc, #btnEscs {
+    position: absolute;
+    top: .6rem;
+    right: 2.6rem;
+    width: 3rem;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+    border: .2rem solid rgb(190, 0, 0);
+    border-radius: 1rem 0 1rem 0;
+    background-color: rgb(190, 0, 0);
+    transition: 0.3s;
+    transform: rotate(90deg);
+}
+#btnEsc:hover, #btnEscs:hover {
+    color: rgb(190, 0, 0);
+    background-color: white;
+}
+/* MainHead */
+.MainHead {
+    z-index: 16;
+    position: fixed;
+    width: 100%;
+    opacity: .9;
+    box-shadow: 0rem .1rem .4rem black;
+    background-color: white;
+    transition: .5s;
+}
+
+.menuTop {
+    height: 6rem;
+    font-size: 3rem;
+    line-height: 6rem;
+    text-align: center;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    border-radius: 0;
+}
+.navbar-nav {
+    margin: 0 -15px;
+    transition: .2s;
+}
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: .5rem;
+    transition: .8s;
+}
+
+#navbar-collapse ul {
+    margin-top: 0;
+}
+.carousel-inner img {
+    margin: 0 auto;
+}
+.carousel-control {
+    font-size: 100px;
+}
+/* MainHead */
+
+/* MainBody */
+
+.bodyBanner .carousel-caption {
+    width: 420px;
+}
+.bodyBanner .carousel-inner .item:nth-child(1) .carousel-caption {
+    top: 22%;
+    left: 55%;
+    text-align: left;
+}
+.bodyBanner .carousel-inner .item:nth-child(2) .carousel-caption {
+    top: 22%;
+    left: 19%;
+    text-align: left;
+}
+.bodyBanner .carousel-inner .item:nth-child(3) .carousel-caption {
+    top: 22%;
+    left: 18%;
+    text-align: left;
+}
+.bodyBanner .carousel-inner .item:nth-child(4) .carousel-caption {
+    top: 23%;
+    left: 17%;
+    text-align: left;
+}
+.bodyBanner .carousel-inner .item:nth-child(5) .carousel-caption {
+    top: 22%;
+    left: 55%;
+    text-align: left;
+}
+.bodyBanner .carousel-caption h3, .carousel-caption p {
+    font-size: 2rem;
+    text-indent: 1rem;
+    text-shadow: 1px 2px 3px black;
+    cursor: default;
+}
+.bodyBanner .carousel-caption h3 {
+    font-size: 5rem;
+}
+.bodyBanner .carousel-caption p {
+    padding-top: 1rem;
+    border-top: 1px solid white;
+}
+.bodyBanner .carousel-caption input[type="button"] {
+    margin-left: 3rem;
+    padding: .8rem 2rem;
+    font-size: 2.2rem;
+    letter-spacing: .2rem;
+    color: white;
+    outline: none;
+    border: .3rem solid rgb(199, 0, 0);
+    border-radius: 30px;
+    background-color: rgb(199, 0, 0);
+    transition: .3s;
+}
+.bodyBanner .carousel-caption input[type="button"]:hover {
+    color: rgb(199, 0, 0);
+    border: .3rem solid rgb(199, 0, 0);
+    background-color: white;
+
+}
+
+.bodyBanner .carousel-indicators li, .newsBox1 .carousel-indicators li {
+    margin: 0 5px;
+    height: 25px;
+    width: 25px;
+    border: 4px solid white;
+    border-radius: 50%;
+    background-color: white;
+    transition: .3s;
+}
+.bodyBanner .carousel-indicators li:hover, .newsBox1 .carousel-indicators li:hover {
+    margin: 0 5px;
+    height: 25px;
+    width: 25px;
+    border: 4px solid white;
+    background-color: rgb(199, 0, 0);
+}
+.bodyBanner .carousel-indicators li.active, .newsBox1 .carousel-indicators li.active {
+    margin: 0 5px;
+    height: 25px;
+    width: 25px;
+    border: 4px solid white;
+    background-color: rgb(199, 0, 0);
+}
+.demoVideo1 {
+    position: absolute;
+    margin-top: 5rem;
+    width: 40rem;
+    box-shadow: 0 .5rem 1rem black;
+    border: .5rem solid white;
+    border-radius: 1.5rem;
+}
+
+.bodyGame {
+    margin: 3rem 0 0;
+}
+.bodyGame .gameText {
+    margin: 0 auto;
+    width: 30rem;
+    background-color: white;
+}
+.gameBox {
+    margin-bottom: 3rem;
+    color: #333;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 1rem;
+    transition: .5s;
+}
+.gameBox:hover {
+    transform: translateY(-1rem);
+}
+.gameBox:hover h3 {
+    color: rgb(199, 0, 0);
+    letter-spacing: .5rem;
+}
+.gameBox mask {
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    background-color: black;
+}
+.gameImg img {
+    margin-bottom: -2rem;
+}
+.gameBox h3 {
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: .3s;
+}
+.gameBox p {
+    color: rgb(135, 135, 135);
+    padding: 0 1rem;
+}
+.gameBox hr {
+    margin: 0 auto 1rem;
+    width: 26rem;
+}
+.gameBox input[type="button"] {
+    margin-left: 20rem;
+    margin-bottom: 1rem;
+    color: rgb(135, 135, 135);
+    outline: none;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.bodyNews {
+    background-color: #ddd;
+}
+.newsBox1, .newsBox2, .newsBox3 {
+    margin: 3rem 0;
+    font-family: "微软雅黑";
+    color: rgb(199, 0, 0);
+    transition: .3s;
+}
+.newsBox1 {
+    margin-top: 13rem;
+}
+.newsBox1:hover, .newsBox2:hover, .newsBox3:hover {
+    transform: translateY(-1rem);
+}
+.newsBox1 img {
+    border: 1rem solid white;
+    border-radius: 0 3rem 0 3rem;
+}
+.newsText,.newsText2 {
+    padding: 1rem 3rem;
+    border-radius: 0 3rem 0 3rem;
+    background-color: #333;
+}
+.newsBox2 {
+    margin-top: 10rem;
+}
+.newsText li {
+    margin-bottom: -.5rem;
+    margin-left: -2rem;
+    list-style: none;
+}
+.newsText li:before {
+    position: relative;
+    top: .4rem;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+    content: "◇";
+}
+.newsText a:hover {
+    font-weight: bold;
+    color: white;
+    border-bottom: .1rem solid white;
+}
+.newsText h3, .newsText2 h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.newsText a {
+    color: #ddd;
+    text-decoration: none;
+}
+.newsText span {
+    position: relative;
+    float: right;
+    top: 1rem;
+}
+.newsText2 {
+    color: rgb(201, 201, 201);
+    background-color: white;
+}
+.newsBox3 {
+    margin-left: 5rem;
+    width: 50rem;
+}
+.newsText2 h3 {
+    color: #333;
+}
+.newsText2 li {
+    padding: 1rem 1rem .1rem;
+    list-style: none;
+    cursor: default;
+    border-radius: 2rem 0 0 2rem;
+    transition: .3s;
+}
+.newsText2 li:hover {
+    color: rgb(199, 0, 0);
+    cursor: pointer;
+    background-color: rgb(231, 243, 241);
+}
+.newsText2 img {
+    float: left;
+    margin-top: .5rem;
+    margin-right: 1rem;
+    width: 20%;
+    border-radius: 2rem;
+    box-shadow: .3rem .4rem .5rem rgb(197, 197, 197);
+}
+.newsText2 h4 {
+    color: #333;
+    font-weight: bold;
+}
+.newsText2 .rightGo {
+    float: right;
+    margin-top: -7rem;
+    font-size: 3rem;
+}
+
+.scrollTop {
+    z-index: 16;
+    position: fixed;
+    padding: 1rem;
+    bottom: 10%;
+    left: 110%;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    border: .4rem solid white;
+    border-radius: 30%;
+    background-color: rgb(199, 0, 0);
+    transition: .5s;
+}
+.scrollTop:hover {
+    color: rgb(199, 0, 0);
+    border-color: rgb(199, 0, 0);
+    background-color: white;
+}
+
+.MainFooter {
+    padding: 2rem;
+    height: 15rem;
+    text-align: center;
+    color: #ddd;
+}
+.MainFooter .footerTitle {
+    padding-right: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    border-right: .5rem solid rgb(190, 0, 0);
+}
+.MainFooter .footerText {
+    padding-top: .8rem;
+    padding-left: 1rem;
+    font-size: 1.8rem;
+    font-family: "幼圆";
+    color: white;
+    border-top: .3rem solid white;
+}
+/* @media only screen and (min-width:360px){html{font-size: 20px!important}}
+@media only screen and (min-width:375px){html{font-size: 21px!important}}
+@media only screen and (min-width:400px){html{font-size: 22px!important}}
+@media only screen and (min-width:414px){html{font-size: 23px!important}}
+@media only screen and (min-width:480px){html{font-size: 24px!important}}
+@media only screen and (min-width:540px){html{font-size: 26px!important}}
+@media only screen and (min-width:640px){html{font-size: 28px!important}}
+@media only screen and (min-width:768px){html{font-size: 32px!important}}
+@media only screen and (min-width:960px){html{font-size: 36px!important}}
+@media only screen and (min-width:1024px){html{font-size: 46px!important}} */

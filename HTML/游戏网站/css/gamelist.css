@@ -1,0 +1,15 @@
+.MainHead {
+    top: 0rem;
+}
+.MainBody {
+    margin-top: 16rem;
+    background-color: #ddd;
+}
+.MainBody h2 {
+    position: absolute;
+    top: 9.3rem;
+    left: 10.5rem;
+    font-size: 4rem;
+    color: white;
+    border-bottom: .3rem solid rgb(190, 0, 0);
+}
