@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/register.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <title>小米网站</title>
+</head>
+<body>
+    <table id="logDiv" class="loginDiv">
+        <form action="./php/login.php" method="POST">
+            <tbody>
+                <tr class="imgs">
+                    <td colspan="2">
+                        <img src="images/logo_2.jpg" alt="" class="LoginImg" />
+                        <span id="eBtn" class="escBtn" onclick="escBtn()">&times;</span>
+                    </td>
+                </tr>
+                <tr class="opt" style="position: relative; top: -5px;">
+                    <td class="optOn">登 入</td>
+                    <td class="optOut" onclick="linkReg()">注 册</td>
+                </tr>
+                <tr class="users">
+                    <td colspan="2">
+                        <br /><br />
+                        <img src="images/help/help_3.png" alt="" width="35" />
+                        <input type="text" name="name" class="textBoxs" onfocus="this.style.borderColor = 'rgb(126, 126, 126)'" onblur="this.style.borderColor='#ccc'" />
+                    </td>
+                </tr>
+                <tr class="pwds">
+                    <td colspan="2">
+                        <img src="images/help/help_7.png" alt="" width="32" />
+                        <input type="password" name="password" class="textBoxs" onfocus="this.style.borderColor = 'rgb(126, 126, 126)'" onblur="this.style.borderColor='#ccc'" />
+                </tr>
+                <tr class="btns">
+                    <td colspan="2">
+                        <input type="submit" name="submit" class="LoginBtn" value="登  入" />
+                    </td>
+                </tr>
+            </tbody>
+        </form>
+    </table>
+    
+    <table id="regDiv" class="loginDiv">
+        <form action="./php/register.php" method="POST">
+            <tr class="imgs">
+                <td colspan="2">
+                    <img src="images/logo_2.jpg" alt="" class="LoginImg" style="margin-top: 5px;" />
+                    <span id="eBtns" class="escBtn" onclick="escBtns()" style="margin-top: 5px;">&times;</span>
+                </td>
+            </tr>
+            <tr class="opt">
+                <td class="optOut" onclick="linkLog()">登 入</td>
+                <td class="optOn">注 册</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="user" class="users">用户名：</label>
+                    <input type="text" id="user" name="name" class="textBoxs2" onfocus="this.style.borderColor = 'rgb(126, 126, 126)'" onblur="this.style.borderColor='#ccc'" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="pwd" class="pwds">密码：</label>
+                    <input type="password" id="pwd" name="password" class="textBoxs2" onfocus="this.style.borderColor = 'rgb(126, 126, 126)'" onblur="this.style.borderColor='#ccc'" />
+                </td>
+            </tr>
+            <!-- <tr>
+                <td colspan="2">
+                    <label for="pwds" class="pwds2">确认密码：</label>
+                    <input type="password" id="pwds" class="textBoxs2" onfocus="this.style.borderColor = 'rgb(126, 126, 126)'" onblur="this.style.borderColor='#ccc'" />
+                </td>
+            </tr> -->
+            <tr>
+                <td colspan="2">
+                    <input type="submit" name="submit" class="LoginBtn" value="注 册" />
+                </td>
+            </tr>
+        </form>
+    </table>
+    <div id="mask"></div>
+    <div id="Menus" class="topMenu">
+        <img src="images/logo_3.png" alt="Xiaomi" class="logo">
+        <ul class="menu">
+            <li class="menuIndex"><a href="index.html" style="color: orange;">首 页</a></li>
+            <li><a href="html/list.html">产品列表</a></li>
+            <li><a href="html/miui.html">MIUI12</a></li>
+            <li><a href="html/help.html">服务</a></li>
+            <li><a href="#">小米社区</a></li>
+        </ul>
+        <button id="regBtn" class="rBtn" onclick="register()">注 册</button>
+        <button id="logBtn" class="lBtn" onclick="login()">登 入</button>
+        <button id="admBtn" class="aBtn" onclick="window.location='html/admin.html'">后台管理</button>
+        <button id="esc" class="escB" onclick="escSuccess()">退 出</button>
+    </div>
+    <div class="banner">
+        <div class="banner_box">
+            <div class="img_box">
+                <a href="#"><img src="images/banner/indexBanner_1.jpg" alt="" /></a>
+                <a href="#"><img src="images/banner/indexBanner_2.jpg" alt="" /></a>
+                <a href="#"><img src="images/banner/indexBanner_3.jpg" alt="" /></a>
+                <a href="#"><img src="images/banner/indexBanner_4.jpg" alt="" /></a>
+            </div>
+        </div>
+    </div>
+    <div class="board">
+        <div class="board_box">
+            <div class="b1">通知公告</div>
+            <div class="b2">
+                <marquee width="880px">
+                    <ul>
+                        <li><a href="#">小米10新机了解！</a></li>
+                        <li><a href="#">Redmi K30 Pro 详情</a></li>
+                        <li><a href="#">小米618全民狂欢！</a></li>
+                        <li><a href="#">米粉狂欢节</a></li>
+                        <li><a href="#">小米一亿像素</a></li>
+                    </ul></marquee>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main_1">
+            <h2>发现小米黑科技</h2>
+            <div class="text_1">
+                <img src="images/textImg_1.png" alt="">
+                <h3>手机黑科技</h3>
+                <span>小米手机黑科技：游戏加速、视频工具箱、传送门、自由窗口、手机分身、儿童空间、MIUI实验室、极简模式...</span>
+            </div>
+            <div class="text_2">
+                <img src="images/textImg_2.png" alt="">
+                <h3>MIUI黑科技</h3>
+                <span>MIUI系统黑科技：触碰想象、感受真实，隐私保护、贴心功能...</span>
+            </div>
+            <div class="text_3">
+                <img src="images/textImg_3.png" alt="">
+                <h3>AI黑科技</h3>
+                <span>智能AI小爱同学：智能家居管理、语音播报、自定义语音唤醒、小爱捷径...</span>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="list">
+        <div class="main_2">
+            <h2>产品列表</h2>
+            <div class="list_1">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/phone/phoneMi10.jpg" alt="">
+                            <p class="phone_p1">小米10</p>
+                            <p class="phone_p2">骁龙865/1亿像素相机</p>
+                            <p class="phone_p3">3999元起</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/phone/phoneMi10Pro.jpg" alt="">
+                            <p class="phone_p1">小米10Pro</p>
+                            <p class="phone_p2">骁龙865/50倍变焦</p>
+                            <p class="phone_p3">4999元起</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/phone/phoneRMiK30.jpg" alt="">
+                            <p class="phone_p1">红米K30</p>
+                            <p class="phone_p2">120Hz流速屏</p>
+                            <p class="phone_p3">1699元起</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/phone/phoneMi10Pro.jpg" alt="">
+                            <p class="phone_p1">红米K30Pro</p>
+                            <p class="phone_p2">双模5G/骁龙865/弹出式摄像头</p>
+                            <p class="phone_p3">2999元起</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <a href="html/list.html"><button class="more">更&emsp;多</button></a>
+        </div>
+    </div>
+    <div class="miui">
+        <div class="main_3">
+            <img src="images/logo_miui2.png" alt="" class="miuiImg">
+            <h3 class="miuiH3_1">触 碰 想 象</h3>
+            <img src="images/hx.png" alt="" class="hxImg">
+            <h3 class="miuiH3_2">感 受 真 实</h3>
+        </div>
+        <a href="html/miui.html"><button class="more">进入MIUI</button></a>
+    </div>
+    <div class="clear"></div>
+    <div class="footer">
+        <div class="bottom">
+            <img src="images/logo_2.jpg" alt="" width="60px">
+            <div class="bottom_p">
+                <p>网页设计期末作业</p>
+                <p>小米产品宣传网站 素材均源于小米官网</p>
+                <p><a href="http://otakubanana.club/html/qmzy/index.html" target="_blank">点击预览网络网站</a></p>
+                <p>计应三班 190210147 张嘉豪</p>
+            </div>
+        </div>
+    </div>
+    <a href="#"><button class="topButton">Top</button></a>
+</body>
+<script src="js/index.js"></script>
+</html>
