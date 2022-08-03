@@ -1,5 +1,5 @@
-# mall
-
+# Mall
+## //模块文件夹过大采用分卷压缩(node_modules)
 ## Project setup
 ```
 npm install
