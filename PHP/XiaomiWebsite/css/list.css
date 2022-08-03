@@ -1,0 +1,97 @@
+body {
+    background-color: white;
+}
+
+.navMain {
+    margin-top: 60px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+
+.navMain_Box {
+    margin: 0 auto;
+    padding: 8px;
+    width: 1000px;
+    font-size: 14px;
+}
+
+.navMain_Box a {
+    color: gray;
+    text-decoration: none;
+}
+
+.navMain_Box p {
+    display: inline;
+    color: gray;
+    cursor: default;
+}
+
+.navMain_Box a:hover {
+    color: black;
+}
+
+.listBanner {
+    width: 100%;
+}
+
+.listBanner_Box {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.listMain {
+    width: 100%;
+}
+
+.listMain_Box, .listMain_Box2, .listMain_Box3 {
+    margin: 0 auto;
+    padding-top: 30px;
+    height: 600px;
+    width: 997px;
+    transition: 0.5s;
+    
+}
+
+.listMain_Box h3, .listMain_Box2 h3, .listMain_Box3 h3 {
+    margin: 0 0 20px;
+    font-size: 26px;
+    font-weight: 100;
+    color: orange;
+}
+
+.listMain_Box ul, .listMain_Box2 ul, .listMain_Box3 ul {
+    list-style: none;
+}
+
+.listMain_Box li, .listMain_Box2 li, .listMain_Box3 li {
+    float: left;
+    padding: 20px;
+    height: 130px;
+    width: 208px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    transition: 0.1s;
+}
+
+.listMain_Box li:hover, .listMain_Box2 li:hover, .listMain_Box3 li:hover {
+    box-shadow: 0 0 10px 1px gray inset;
+}
+
+.listMain_Box img, .listMain_Box2 img, .listMain_Box3 img {
+    margin-bottom: 20px;
+}
+
+.listMain_Box a, .listMain_Box2 a, .listMain_Box3 a {
+    display: block;
+    color: gray;
+    text-decoration: none;
+}
+
+.listMain_Box a:hover, .listMain_Box2 a:hover, .listMain_Box3 a:hover {
+    color: orangered;
+}
+
+.listMain_Box2, .listMain_Box3 {
+    margin-top: -20px;
+}

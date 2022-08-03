@@ -1,0 +1,212 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.navMain {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.navMain_Box {
+    margin: 0 auto;
+    padding: 8px;
+    width: 1000px;
+    font-size: 14px;
+}
+
+.navMain_Box a {
+    color: gray;
+    text-decoration: none;
+}
+
+.navMain_Box p {
+    display: inline;
+    color: gray;
+    cursor: default;
+}
+
+.navMain_Box a:hover {
+    color: black;
+}
+
+.helpBanner {
+    width: 100%;
+    transition: 1s;
+}
+
+.helpBanner_Box {
+    margin: 0 auto;
+    height: 200px;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.img_Box {
+    width: 4000px;
+    background-color: black;
+}
+
+.img_Box img {
+    float: left;
+    width: 1000px;
+    animation: helpBanner 20s infinite;
+}
+
+@keyframes helpBanner {
+    0% {}
+    20% {
+        transform: translateX(0px);
+    }
+    40% {
+        transform: translateX(-1000px);
+    }
+    60% {
+        transform: translateX(-1000px);
+    }
+    80% {
+        transform: translateX(-2000px);
+    }
+    95% {
+        transform: translateX(-2000px);
+    }
+}
+
+.helpMain {
+    height: auto;
+    width: 100%;
+}
+
+.helpMain_Box {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 1000px;
+}
+
+.helpMain_Box h2, .question_Box h2, .service_Box h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #333;
+    cursor: default;
+}
+
+.helpMain_Box li {
+    float: left;
+    margin: 20px 0 20px 40px;
+    height: 230px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+    background-color: white;
+    transition: 1s;
+}
+
+.helpMain_Box img {
+    margin-top: 50px;
+}
+
+.helpMain_Box h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: "YouYuan";
+    letter-spacing: 2px;
+    transition: 0.25s;
+}
+
+.helpMain_Box p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: gray;
+    transition: 0.25s;
+}
+
+.helpMain_Box li:hover {
+    box-shadow: 0 5px 10px #ccc;
+}
+
+.helpMain_Box li:hover > img {
+    width: 70px;
+}
+
+.helpMain_Box li:hover > h3 {
+    font-size: 18px;
+    color: orange;
+}
+
+.helpMain_Box li:hover > p {
+    color: black;
+}
+
+.question_Box {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 1000px;
+    text-align: center;
+}
+
+.question_Box input[type=text] {
+    margin: 20px 0;
+    padding: 10px 30px;
+    height: 25px;
+    width: 300px;
+    font-size: 16px;
+    outline: none;
+    border: 0;
+}
+
+.question_Box input[type=submit] {
+    margin-left: -5px;
+    padding: 14px 20px;
+    color: #333;
+    outline: none;
+    border: 0;
+    background-color: white;
+    transition: 0.2s;
+}
+
+.question_Box input[type=submit]:hover {
+    color: white;
+    background-color: orange;
+}
+
+.service_Box {
+    margin: 0 auto;
+    height: 180px;
+    width: 1000px;
+}
+
+.service_Box li {
+    float: left;
+    margin: 20px 0 20px 15px;
+    padding: 30px 75px;
+    width: 165px;
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.service_Box img {
+    float: left;
+    width: 30px;
+}
+
+.service_Box h3 {
+    font-weight: 100;
+    font-family: "YouYuan";
+    color: #333;
+}
+
+.service_Box li:hover {
+    margin-top: 10px;
+    box-shadow: 0 5px 10px #ccc;
+}
+
+.service_Box li:hover > h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: orangered;
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    background-color: orange;
+}
+
+.topMenu {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    height: 57px;
+    width: 100%;
+    border-bottom: 3px solid orange;
+    background-color: white;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 125px;
+}
+
+.menu {
+    float: right;
+    margin-right: 1%;
+    list-style: none;
+}
+
+.menu a {
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: gray;
+}
+
+.menu > li {
+    float: left;
+    padding: 18px 10px 15px;
+    transition: 0.4s;
+}
+
+.menu > li:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.menu > li:hover > a {
+    color: orange;
+}
+
+.footer {
+    padding: 5px 0;
+    height: 100px;
+    width: 100%;
+    border-top: 5px solid orange;
+    background-color: white;
+}
+
+.bottom {
+    margin: 0 auto;
+    height: 100px;
+    width: 998px;
+    text-align: center;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+}
+
+.bottom img {
+    float: left;
+    margin: 20px 100px 0 200px;
+    padding-right: 30px;
+    border-right: 2px solid #ccc;
+}
+
+.bottom_p {
+    position: relative;
+    top: 10px;
+    left: -220px;
+}
+
+.bottom_p p {
+    font-size: 14px;
+    color: rgb(104, 104, 104);
+}
+
+.bottom_p a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.topButton {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    padding: 15px 15px;
+    font-weight: bold;
+    color: gray;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 1px 2px 4px black;
+    opacity: 0.5;
+    border: 0;
+    border-radius: 15px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.topButton:hover {
+    color: orange;
+    opacity: 1;
+}
