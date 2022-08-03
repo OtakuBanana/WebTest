@@ -1,0 +1,38 @@
+.pageBox {
+  display: flex;
+  justify-content: center;
+}
+.imgBox {
+  flex: 1;
+  margin: 20rpx;
+  width: 600rpx;
+}
+.txtBox {
+  width: 600rpx;
+}
+.txtBox .title {
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.txtBox .txt {
+  margin: 20rpx;
+  color: gray;
+}
+.imgBox image {
+  width: 600rpx;
+  border-radius: 20rpx;
+  box-shadow: 0 1rpx 10rpx #ddd;
+}
+.btnBox .btn {
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+  width: 600rpx;
+  color: #00BFFF;
+  border: 2rpx solid #00BFFF;
+  background-color: white;
+}
+.btnBox .active {
+  color: white;
+  border: 2rpx solid #00BFFF;
+  background-color: #00BFFF;
+}

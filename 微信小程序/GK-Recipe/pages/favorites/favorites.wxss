@@ -1,0 +1,39 @@
+page {
+  background-color: rgb(250, 250, 250);
+}
+.isEmpty {
+  margin-top: 100rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #1E90FF;
+}
+.pageBox {
+  display: flex;
+  justify-content:center;
+}
+.favList {
+  display: flex;
+  flex: 1;
+  margin: 20rpx;
+  padding: 20rpx;
+  width: 650rpx;
+  box-shadow: 0 1rpx 10rpx #ddd;
+  background-color: white;
+}
+.favList .imgBox image {
+  margin-right: 40rpx;
+  width: 250rpx;
+}
+.favList .txtBox view:nth-child(1) {
+  /* height: 150rpx; */
+  font-size: 42rpx;
+  font-weight: bold;
+}
+.favList .txtBox view:nth-child(2) {
+  display: -webkit-box;
+  font-size: 36rpx;
+  color: gray;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}

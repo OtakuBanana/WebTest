@@ -1,0 +1,31 @@
+.pageBox {
+  display: flex;
+  justify-content: center;
+}
+.food {
+  margin: 40rpx;
+  padding-bottom: 8rpx;
+  width: 600rpx;
+  text-align: center;
+  border: 1rpx solid #ddd;
+  border-radius: 20rpx;
+  overflow: hidden;
+  box-shadow: 0 1rpx 10rpx #ddd;
+  background-color: white;
+}
+.food image {
+  width: 600rpx;
+}
+.food .title {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.food .txt {
+  display: -webkit-box;
+  margin: 0 auto;
+  width: 550rpx;
+  font-size: 32rpx;
+  color: #333;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}

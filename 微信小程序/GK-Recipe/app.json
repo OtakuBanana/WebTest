@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/food/food",
+    "pages/foodList/foodList",
+    "pages/foodList2/foodList2",
+    "pages/favorites/favorites",
+    "pages/newFood/newFood",
+    "pages/hotFood/hotFood",
+    "pages/search/search",
+    "pages/list/list",
+    "pages/address/address",
+    "pages/detail/detail",
+    "pages/modify/modify",
+    "pages/order/order",
+    "pages/person/person",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00BFFF",
+    "navigationBarTitleText": "美食精灵",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+   "color": "#8a8a8a",
+   "selectedColor": "#1296db",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "专题",
+      "iconPath": "/imgs/专题.png",
+      "selectedIconPath": "/imgs/选中专题.png"
+  },
+  {
+      "pagePath": "pages/list/list",
+      "text": "分类",
+      "iconPath": "/imgs/分类.png",
+      "selectedIconPath": "/imgs/选中分类.png"
+    },
+    {
+      "pagePath": "pages/favorites/favorites",
+      "text": "收藏",
+      "iconPath": "/imgs/下载.png",
+      "selectedIconPath": "/imgs/选中下载.png"
+    },
+   {
+      "pagePath": "pages/person/person",
+      "text": "我的",
+      "iconPath": "/imgs/我的.png",
+      "selectedIconPath": "/imgs/选中我的.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

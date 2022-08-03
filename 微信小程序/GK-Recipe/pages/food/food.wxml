@@ -1,0 +1,19 @@
+<view class="pageBox">
+  <view>
+    <view class="imgBox">
+      <image src="{{food.imgSrc}}" mode="widthFix"></image>
+    </view>
+    <view class="txtBox">
+      <view class="title">{{food.title}}</view>
+      <view class="txt">材料：
+        <text style="color: #00BFFF">\n{{food.txt}}</text>
+      </view>
+      <view class="txt">做法：
+        <text style="color: black">\n{{food.practice}}</text>
+      </view>
+    </view>
+    <view class="btnBox">
+      <button class="btn {{active}}" bindtap="{{addFav}}">{{btnFav}}</button>
+    </view>
+  </view>
+</view>

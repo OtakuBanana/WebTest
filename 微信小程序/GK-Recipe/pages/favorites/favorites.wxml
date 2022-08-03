@@ -1,0 +1,14 @@
+<view class="pageBox">
+  <view wx:if="{{!ifFlag}}" class="isEmpty">收藏夹里空空如也</view>
+  <view wx:else>
+    <view wx:for="{{favList}}" wx:key="title" class="favList" data-foodtitle="{{item.title}}" bindtap="go">
+      <view class="imgBox">
+        <image src="{{item.imgSrc}}" mode="widthFix"></image>
+      </view>
+      <view class="txtBox">
+        <view>{{item.title}}</view>
+        <view>食材：{{item.txt}}</view>
+      </view>
+    </view>
+  </view>
+</view>

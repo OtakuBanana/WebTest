@@ -1,0 +1,17 @@
+<view>
+<form>
+<view class="pages-section">
+<view>收餐人姓名</view>
+<view>{{adressInfo.username}}</view>
+</view>
+<view>
+<view>收餐地址</view>
+<view>{{addressInfo.detailInfo}}</view>
+<view>手机号码</view>
+</view>
+</form>
+</view>
+<view class="add"bindtap="chooseAddress">
+<image class="left" src="/imgs/选中下载.png" mode="widthFix"></image>
+<image class="text">获取收餐地址</image>
+<image class="right" src="/imgs/设置.png"mode="widthFix"></image></view>

@@ -1,0 +1,9 @@
+<view class="pageBox">
+  <view>
+    <view wx:for="{{foodList}}" wx:key="title" class="food" data-foodname="{{item.title}}" bindtap="goFood">
+      <image src="{{item.imgSrc}}" mode="widthFix"></image>
+      <view class="title">{{item.title}}</view>
+      <view class="txt">食材：{{item.txt}}</view>
+    </view>
+  </view>
+</view>
